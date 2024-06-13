@@ -1,12 +1,11 @@
-# 👋 Hi, I’m @Jakehu2020 👋
+# 👋 Hi, I’m Jake Hu 👋
 
 I am a coder/programmer in the following languages:
-- Reactjs (.jsx)
 - Javascript (.js)
 - Node.js (.js)
 - Python (.py)
-- Data languages like JSON and XML (.json and .xml)
 - HTML (.html)
 - CSS (.css)
-- XCSS (.xcss)
+- C++
+- Java
 - and more!
