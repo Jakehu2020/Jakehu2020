@@ -9,3 +9,5 @@ I am a coder/programmer in the following languages:
 - C++
 - Java
 - and more!
+
+Expect Games, Tools, Interactives, and some occasional surprises here!
