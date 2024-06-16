@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* { font-family: 'Roboto', sans-serif; }
+
+h1 {
+  font-size: 50px;
+}
+@keyframes showsdown {
+  from {
+    top: 277px;
+    opacity: 0;
+  }
+  to {
+    top: 299px;
+    opacity: 1;
+  }
+}
+@keyframes showsup {
+  from {
+    top: 299px;
+    opacity: 1;
+  }
+  to {
+    top: 277px;
+    opacity: 0;
+  }
+}
+.show {
+  pointer-events:none;
+  display: block;
+  position: absolute;
+  -moz-transform: scale(-1, -1);
+  -webkit-transform: scale(-1, -1);
+  -o-transform: scale(-1, -1);
+  -ms-transform: scale(-1, -1);
+  transform: scale(-1, -1);
+  top: 277px;
+  left: 49.75%;
+  opacity: 0;
+}
+.copy1 { animation: showsdown 1s linear 1; }
+.copy2 { animation: showsup 0.7s linear 1; }
+.show > svg {
+  width: 64px;
+  height: 64px;
+}
+@keyframes sd {from{top: 285px;opacity: 0;}to {top: 304px;opacity: 1;}};@keyframes ds {from {top: 304px;opacity: 1;}to {top: 285px;opacity: 0;}}
+.animated > p {
+  top: 280px;
+  left: 50.25%;
+  position: fixed;
+  opacity: 0;
+}
+.sd { animation: sd 1s linear .5; }
+.ds { animation: ds 0.7s linear .5; }
